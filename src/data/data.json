@@ -1,0 +1,1698 @@
+{
+    "NIVEL A": {
+        "ADMINISTRACION GENERAL": [
+            {
+                "grupo": "01",
+                "docente": "VILLARROEL DAZA MARIA HELEN",
+                "dias": ["Lunes", "Miércoles", "Viernes"],
+                "horarios": ["09:45 - 11:15", "09:45 - 11:15", "09:45 - 11:15"],
+                "aulas": ["E520", "E503", "E504"]
+            },
+            {
+                "grupo": "02",
+                "docente": "BADANI LENZ RAFAEL FERNANDO",
+                "dias": ["Lunes", "Miércoles", "Viernes"],
+                "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+                "aulas": ["E545", "E545", "E545"]
+            },
+            {
+                "grupo": "03",
+                "docente": "VILLARROEL DAZA MARIA HELEN",
+                "dias": ["Martes", "Miércoles", "Viernes"],
+                "horarios": ["09:45 - 11:15", "11:15 - 12:45", "11:15 - 12:45"],
+                "aulas": ["E501", "E503", "E504"]
+            },
+            {
+                "grupo": "20",
+                "docente": "VALDEZ ZEGARRA RAFAEL A.",
+                "dias": ["Martes", "Viernes", "Sábado"],
+                "horarios": ["20:15 - 21:45", "06:45 - 08:15", "06:45 - 08:15"],
+                "aulas": ["E201", "E524", "E502"]
+            },
+            {
+                "grupo": "21",
+                "docente": "SANCHEZ CASTELLON JUAN FELIX",
+                "dias": ["Lunes", "Miércoles", "Viernes"],
+                "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+                "aulas": ["E545", "E545", "E545"]
+            },
+            {
+                "grupo": "22",
+                "docente": "VARGAS OROSCO FREDDY",
+                "dias": ["Lunes", "Miércoles", "Jueves"],
+                "horarios": ["15:45 - 17:15", "15:45 - 17:15", "15:45 - 17:15"],
+                "aulas": ["E205", "E503", "E503"]
+            },
+            {
+                "grupo": "23",
+                "docente": "TORRICO OCAMPO ENRIQUE",
+                "dias": ["Lunes", "Martes", "Jueves"],
+                "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+                "aulas": ["E520", "E524", "E521"]
+            }
+        ],
+        "CONTABILIDAD I": [
+            {
+                "grupo": "01",
+                "docente": "PEREZ AMADOR MARIO",
+                "dias": ["Martes", "Jueves", "Viernes"],
+                "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+                "aulas": ["E545", "E545", "E523"]
+            },
+            {
+                "grupo": "02",
+                "docente": "PEREZ AMADOR MARIO",
+                "dias": ["Martes", "Jueves", "Viernes"],
+                "horarios": ["09:45 - 11:15", "09:45 - 11:15", "09:45 - 11:15"],
+                "aulas": ["E523", "E544", "E523"]
+            },
+            {
+                "grupo": "03",
+                "docente": "MENDOZA CRESPO JOSE ANTONIO",
+                "dias": ["Lunes", "Martes", "Miércoles"],
+                "horarios": ["09:45 - 11:15", "14:15 - 15:45", "09:45 - 11:15"],
+                "aulas": ["E109", "E106", "E303"]
+            },
+            {
+                "grupo": "04",
+                "docente": "VILLAZON ARANDIA RICARDO IVAN",
+                "dias": ["Lunes", "Martes", "Jueves"],
+                "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+                "aulas": ["E503", "E105", "E106"]
+            },
+            {
+                "grupo": "20",
+                "docente": "MALDONADO ULUNQUE VICTOR HUGO",
+                "dias": ["Lunes", "Martes", "Jueves"],
+                "horarios": ["18:45 - 20:15", "18:45 - 20:15", "17:15 - 18:45"],
+                "aulas": ["E101", "E208", "E102"]
+            },
+            {
+                "grupo": "21",
+                "docente": "FERRUFINO JUAREZ JOSE MARCOS",
+                "dias": ["Martes", "Jueves", "Sábado"],
+                "horarios": ["18:45 - 20:15", "18:45 - 20:15", "09:45 - 11:15"],
+                "aulas": ["E206", "E206", "E208"]
+            },
+            {
+                "grupo": "22",
+                "docente": "MENDOZA CRESPO JOSE ANTONIO",
+                "dias": ["Lunes", "Martes", "Miércoles"],
+                "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+                "aulas": ["E544", "E101", "E PB-1"]
+            }
+        ],
+        "ALGEBRA": [
+        {
+            "grupo": "01",
+            "docente": "QUISPE CABRERA RENE",
+            "dias": ["Lunes", "Martes", "Miércoles", "Sábado"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45", "08:15 - 09:45"],
+            "aulas": ["E206", "E203", "E203", "E201"]
+        },
+        {
+            "grupo": "02",
+            "docente": "COSSIO MC.GALEN LIMBERT PAUL",
+            "dias": ["Lunes", "Martes", "Miércoles", "Jueves"],
+            "horarios": ["09:45 - 11:15", "14:15 - 15:45", "15:45 - 17:15", "09:45 - 11:15"],
+            "aulas": ["E209", "E102", "E202", "E504"]
+        },
+        {
+            "grupo": "04",
+            "docente": "IRIARTE MERCADO EDGAR ALBERTO",
+            "dias": ["Lunes", "Miércoles", "Viernes", "Sábado"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E545", "E520", "E522", "E102"]
+        },
+        {
+            "grupo": "05",
+            "docente": "MOYA ALBARRACIN MARTIN",
+            "dias": ["Martes", "Miércoles", "Jueves", "Martes"],
+            "horarios": ["20:15 - 21:45", "18:45 - 20:15", "06:45 - 08:15", "08:15 - 09:45"],
+            "aulas": ["E101", "E520", "E502", "E504"]
+        },
+        {
+            "grupo": "20",
+            "docente": "JALDIN QUIROZ RENE",
+            "dias": ["Lunes", "Miércoles", "Jueves", "Lunes"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "18:45 - 20:15", "15:45 - 17:15"],
+            "aulas": ["E504", "E511", "E523", "E203"]
+        },
+        {
+            "grupo": "22",
+            "docente": "ALBORTA SILES RAUL JOSE",
+            "dias": ["Lunes", "Martes", "Viernes"],
+            "horarios": ["08:15 - 09:45", "09:45 - 11:15", "11:15 - 12:45"],
+            "aulas": ["E518", "E302", "E506"]
+        },
+        {
+            "grupo": "23",
+            "docente": "COSSIO MC.GALEN LIMBERT PAUL",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["18:45 - 20:15", "20:15 - 21:45", "17:15 - 18:45"],
+            "aulas": ["E504", "E209", "E520"]
+        },
+        {
+            "grupo": "24",
+            "docente": "QUISPE CABRERA RENE",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E203", "E202", "E203"]
+        }
+    ],
+    "METODOLOGIA DE INVESTIGACION I": [
+        {
+            "grupo": "02",
+            "docente": "GUZMAN BROCKMANN FELIPE HANS WIGBERTO",
+            "dias": ["Lunes", "Martes", "Viernes"],
+            "horarios": ["20:15 - 21:45", "09:45 - 11:15", "20:15 - 21:45"],
+            "aulas": ["E520", "E520", "E522"]
+        },
+        {
+            "grupo": "22",
+            "docente": "CARRILLO FUENTES JUAN ANGEL",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "09:45 - 11:15"],
+            "aulas": ["E522", "E502", "E503"]
+        },
+        {
+            "grupo": "23",
+            "docente": "ZAMBRANA TRIVENO JOSE EMILIO",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["E504", "E504", "E504"]
+        },
+        {
+            "grupo": "24",
+            "docente": "GUERRA TORO MARIA ELENA",
+            "dias": ["Lunes", "Miércoles", "Sábado"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "08:15 - 09:45"],
+            "aulas": ["E PB-4", "E101", "E PB-4"]
+        },
+        {
+            "grupo": "25",
+            "docente": "ZAMBRANA TRIVENO JOSE EMILIO",
+            "dias": ["Lunes", "Martes", "Jueves"],
+            "horarios": ["15:45 - 17:15", "15:45 - 17:15", "15:45 - 17:15"],
+            "aulas": ["E502", "E504", "E504"]
+        }
+    ],
+    "CALCULO": [
+        {
+            "grupo": "01",
+            "docente": "MORALES ROJAS ARTURO JOSE L.",
+            "dias": ["Lunes", "Jueves", "Martes"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "09:45 - 11:15"],
+            "aulas": ["E PB-4", "E521", "E503"]
+        },
+        {
+            "grupo": "02",
+            "docente": "MONTAÑO ROMERO JOSE",
+            "dias": ["Martes", "Jueves", "Viernes"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "17:15 - 18:45"],
+            "aulas": ["E502", "E502", "E PB-4"]
+        },
+        {
+            "grupo": "03",
+            "docente": "COVARRUBIAS VARGAS CAUJMAN",
+            "dias": ["Martes", "Jueves", "Viernes"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "11:15 - 12:45"],
+            "aulas": ["E103", "E103", "E503"]
+        },
+        {
+            "grupo": "04",
+            "docente": "DUERI MENDEZ MARIA ELENA",
+            "dias": ["Martes", "Sábado"],
+            "horarios": ["09:45 - 11:15", "11:15 - 12:45"],
+            "aulas": ["E301", "E541"]
+        },
+        {
+            "grupo": "20",
+            "docente": "DIAZ MONZON EDMUNDO",
+            "dias": ["Lunes", "Viernes", "Sábado"],
+            "horarios": ["09:45 - 11:15", "08:15 - 09:45", "09:45 - 11:15"],
+            "aulas": ["E501", "E502", "E504"]
+        },
+        {
+            "grupo": "21",
+            "docente": "MONTANO MONTANO JOSE",
+            "dias": ["Miércoles", "Viernes", "Martes"],
+            "horarios": ["06:45 - 08:15", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E503", "E504","E513"]
+        },
+        {
+            "grupo": "22",
+            "docente": "COVARRUBIAS VARGAS CAUJMAN",
+            "dias": ["Miércoles", "Jueves", "Viernes"],
+            "horarios": ["06:45 - 08:15", "09:45 - 11:15", "08:15 - 09:45"],
+            "aulas": ["E530", "E203", "E204"]
+        },
+        {
+            "grupo": "23",
+            "docente": "MONTAÑO RODRIGUEZ EDGAR ORLANDO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "11:15 - 12:45"],
+            "aulas": ["E104", "E104", "E506"]
+        },
+        {
+            "grupo": "24",
+            "docente": "VILLARROEL SOLIZ GROVER",
+            "dias": ["Lunes", "Viernes", "Jueves"],
+            "horarios": ["14:15 - 15:45", "15:45 - 17:15", "11:15 - 12:45"],
+            "aulas": ["E522", "E522", "E205"]
+        },
+        {
+            "grupo": "25",
+            "docente": "CRESPO FLORES RENE CARLOS",
+            "dias": ["Martes", "Jueves"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E520", "E523"]
+        }
+    ]
+
+
+
+    },
+    "NIVEL B": {
+        "TEORIA Y TECNICAS DE LA ORGANIZACION": [
+        {
+            "grupo": "01",
+            "docente": "VILLARROEL SOLIZ GROVER",
+            "dias": ["Lunes", "Martes", "Viernes"],
+            "horarios": ["12:45 - 14:15", "15:45 - 17:15", "12:45 - 14:15"],
+            "aulas": ["E522", "E523", "E544"]
+        },
+        {
+            "grupo": "20",
+            "docente": "DELGADILLO SALAS MAYCOL MARCOS",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["06:45 - 08:15", "08:15 - 09:45", "06:45 - 08:15"],
+            "aulas": ["E408", "E204", "E522"]
+        },
+        {
+            "grupo": "21",
+            "docente": "MENDOZA ARAOZ JAMIL MARCELO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E201", "E305", "E305"]
+        },
+        {
+            "grupo": "22",
+            "docente": "CARDENAS SARAVIA TITO IVAN",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "20:15 - 21:45"],
+            "aulas": ["E304", "E304", "E304"]
+        },
+        {
+            "grupo": "23",
+            "docente": "CARDENAS SARAVIA TITO IVAN",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E304", "E304", "E304"]
+        }
+    ],
+    "ECONOMIA DE EMPRESAS I": [
+        {
+            "grupo": "01",
+            "docente": "PANTOJA ROCHA YURI NEWTON",
+            "dias": ["Lunes", "Martes", "Sábado"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "08:15 - 09:45"],
+            "aulas": ["E209", "E310", "E104"]
+        },
+        {
+            "grupo": "20",
+            "docente": "ARAUJO COSSIO ALDO ROMEL",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "12:45 - 14:15"],
+            "aulas": ["E310", "E310", "E524"]
+        },
+        {
+            "grupo": "21",
+            "docente": "DECKER MARQUEZ JOSE",
+            "dias": ["Martes", "Viernes", "Viernes"],
+            "horarios": ["20:15 - 21:45", "06:45 - 08:15", "14:15 - 15:45"],
+            "aulas": ["E504", "E206", "E503"]
+        },
+        {
+            "grupo": "22",
+            "docente": "ZUBIETA FLORIDO FREDDY",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["20:15 - 21:45", "17:15 - 18:45", "12:45 - 14:15"],
+            "aulas": ["E504", "E110", "E521"]
+        },
+        {
+            "grupo": "52",
+            "docente": "LOZADA TORRICO RUDY REMBERTO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["14:15 - 15:45", "14:15 - 15:45", "14:15 - 15:45"],
+            "aulas": ["E521", "E520", "E521"]
+        }
+    ],
+    "CONTABILIDAD II": [
+        {
+            "grupo": "01",
+            "docente": "COCA GONZALES ALBERTO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "09:45 - 11:15"],
+            "aulas": ["E520", "E301", "E522"]
+        },
+        {
+            "grupo": "20",
+            "docente": "TORRICO SANCHEZ FELIPE ROBERTO",
+            "dias": ["Martes", "Jueves", "Viernes"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E545", "E521", "E520"]
+        },
+        {
+            "grupo": "21",
+            "docente": "LOPEZ VALENZUELA JOSE WALTER",
+            "dias": ["Martes", "Jueves", "Sábado"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E206", "E206", "E206"]
+        },
+        {
+            "grupo": "22",
+            "docente": "MONTAÑO VARGAS OSCAR",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E523", "E522", "E522"]
+        },
+        {
+            "grupo": "23",
+            "docente": "MONTAÑO VARGAS OSCAR",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "20:15 - 21:45"],
+            "aulas": ["E521", "E524", "E544"]
+        },
+        {
+            "grupo": "24",
+            "docente": "QUINTANA ALVAREZ JHONNY",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["17:15 - 18:45", "18:45 - 20:15", "12:45 - 14:15"],
+            "aulas": ["E545", "E404", "E544"]
+        }
+    ],
+    "ESTADISTICA I": [
+        {
+            "grupo": "01",
+            "docente": "TABORGA ACHA FIDEL",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "11:15 - 12:45"],
+            "aulas": ["E206", "E206", "E502"]
+        },
+        {
+            "grupo": "02",
+            "docente": "VALDIVIEZO MALDONADO LINO JUAN CARLOS",
+            "dias": ["Martes", "Jueves", "Viernes"],
+            "horarios": ["11:15 - 12:45", "09:45 - 11:15", "09:45 - 11:15"],
+            "aulas": ["E207", "E205", "E521"]
+        },
+        {
+            "grupo": "03",
+            "docente": "SUAZNABAR CLAROS FERNANDO ALBERTO",
+            "dias": ["Lunes", "Jueves", "Lunes"],
+            "horarios": ["09:45 - 11:15", "08:15 - 09:45", "14:15 - 15:45"],
+            "aulas": ["E541", "E522", "E204"]
+        },
+        {
+            "grupo": "20",
+            "docente": "MONTANO QUIROGA CLAUDIA CAROLA",
+            "dias": ["Martes", "Jueves", "Miércoles"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "15:45 - 17:15"],
+            "aulas": ["E506", "E502", "E504"]
+        },
+        {
+            "grupo": "21",
+            "docente": "BUSTAMANTE MALDONADO FERNANDO",
+            "dias": ["Lunes", "Jueves", "Martes"],
+            "horarios": ["08:15 - 09:45", "11:15 - 12:45", "14:15 - 15:45"],
+            "aulas": ["E504", "E522", "E523"]
+        }
+    ],
+    "SOCIOLOGIA ORGANIZACIONAL": [
+        {
+            "grupo": "01",
+            "docente": "POZO VALLEJOS MARIA ESTHER",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["14:15 - 15:45", "11:15 - 12:45", "14:15 - 15:45"],
+            "aulas": ["E504", "E504", "E504"]
+        },
+        {
+            "grupo": "20",
+            "docente": "ANTEZANA LA FUENTE JORGE CARLOS",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E520", "E520", "E104"]
+        },
+        {
+            "grupo": "21",
+            "docente": "POZO VALLEJOS MARIA ESTHER",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["15:45 - 17:15", "14:15 - 15:45", "15:45 - 17:15"],
+            "aulas": ["E504", "E503", "E504"]
+        },
+        {
+            "grupo": "22",
+            "docente": "ZAMBRANA TRIVENO JOSE EMILIO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["14:15 - 15:45", "14:15 - 15:45", "14:15 - 15:45"],
+            "aulas": ["E504", "E504", "E504"]
+        }
+    ]
+    },
+    "NIVEL C": {
+        "SISTEMAS ADMINISTRATIVOS": [
+        {
+            "grupo": "01",
+            "docente": "ROCHA CHAVEZ LILIAN MARCELA",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["E202", "E303", "E206"]
+        },
+        {
+            "grupo": "02",
+            "docente": "LOPEZ GUMUCIO RICARDO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["06:45 - 08:15", "09:45 - 11:15", "09:45 - 11:15"],
+            "aulas": ["E503", "E201", "E201"]
+        },
+        {
+            "grupo": "03",
+            "docente": "GUZMAN DURAN GONZALO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "09:45 - 11:15"],
+            "aulas": ["E207", "E PB-4", "E205"]
+        },
+        {
+            "grupo": "04",
+            "docente": "BADANI LENZ RAFAEL FERNANDO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E205", "E522", "E205"]
+        }
+    ],
+    "ECONOMIA DE EMPRESAS II": [
+        {
+            "grupo": "01",
+            "docente": "DECKER MARQUEZ JOSE",
+            "dias": ["Lunes", "Martes", "Viernes"],
+            "horarios": ["20:15 - 21:45", "18:45 - 20:15", "20:15 - 21:45"],
+            "aulas": ["E102", "E520", "E101"]
+        },
+        {
+            "grupo": "20",
+            "docente": "VILLAZON DEL CARPIO OSMAN ERICK",
+            "dias": ["Lunes", "Jueves", "Viernes"],
+            "horarios": ["12:45 - 14:15", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E209", "E503", "E520"]
+        },
+        {
+            "grupo": "21",
+            "docente": "ROJAS VALVERDE GRISELDA ROSIO",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "14:15 - 15:45"],
+            "aulas": ["E208", "E209", "E208"]
+        },
+        {
+            "grupo": "22",
+            "docente": "ROJAS VALVERDE GRISELDA ROSIO",
+            "dias": ["Martes", "Jueves", "Jueves"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "18:45 - 20:15"],
+            "aulas": ["E110", "E109", "E202"]
+        },
+        {
+            "grupo": "23",
+            "docente": "ZUBIETA FLORIDO FREDDY",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["15:45 - 17:15", "15:45 - 17:15", "15:45 - 17:15"],
+            "aulas": ["E105", "E106", "E105"]
+        }
+    ],
+    "TEORIA DE COSTOS": [
+        {
+            "grupo": "01",
+            "docente": "LEDEZMA BELTRAN GUSTAVO",
+            "dias": ["Lunes", "Miércoles", "Jueves", "Viernes"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["E107", "E520", "E105", "E105"]
+        },
+        {
+            "grupo": "20",
+            "docente": "CAMACHO PRADO OMAR ALEJANDRO",
+            "dias": ["Lunes", "Martes", "Jueves", "Viernes"],
+            "horarios": ["17:15 - 18:45", "06:45 - 08:15", "06:45 - 08:15", "15:45 - 17:15"],
+            "aulas": ["E302", "E201", "E523", "E520"]
+        },
+        {
+            "grupo": "21",
+            "docente": "LEDEZMA BELTRAN GUSTAVO",
+            "dias": ["Lunes", "Martes", "Jueves", "Lunes"],
+            "horarios": ["17:15 - 18:45", "18:45 - 20:15", "18:45 - 20:15", "14:15 - 15:45"],
+            "aulas": ["E544", "E523", "E522", "E209"]
+        },
+        {
+            "grupo": "22",
+            "docente": "CAMACHO PRADO OMAR ALEJANDRO",
+            "dias": ["Martes", "Miércoles", "Jueves", "Jueves"],
+            "horarios": ["08:15 - 09:45", "11:15 - 12:45", "09:45 - 11:15", "11:15 - 12:45"],
+            "aulas": ["E206", "E206", "E206", "E206"]
+        },
+        {
+            "grupo": "23",
+            "docente": "MORALES GUZMAN CESAR",
+            "dias": ["Miércoles", "Jueves", "Viernes"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["E205", "E205", "E205"]
+        }
+    ],
+    "ESTADISTICA II": [
+        {
+            "grupo": "01",
+            "docente": "MANSILLA HEREDIA ALFREDO EDUARDO",
+            "dias": ["Viernes", "Sábado", "Jueves"],
+            "horarios": ["14:15 - 15:45", "11:15 - 12:45", "12:45 - 14:15"],
+            "aulas": ["E102", "E208", "E520"]
+        },
+        {
+            "grupo": "02",
+            "docente": "MONTANO MONTANO JOSE",
+            "dias": ["Miércoles", "Viernes", "Martes"],
+            "horarios": ["15:45 - 17:15", "15:45 - 17:15", "15:45 - 17:15"],
+            "aulas": ["E545", "E545", "E105"]
+        },
+        {
+            "grupo": "07",
+            "docente": "URQUIDI BELLIDO SONIA",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["11:15 - 12:45", "09:45 - 11:15", "09:45 - 11:15"],
+            "aulas": ["E PB-4", "E 401", "E PB-1"]
+        },
+        {
+            "grupo": "20",
+            "docente": "JALDIN QUIROZ RENE",
+            "dias": ["Lunes", "Jueves", "Viernes"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "12:45 - 14:15"],
+            "aulas": ["E522", "E522", "E503"]
+        },
+        {
+            "grupo": "21",
+            "docente": "CONDORI ARIAS HERMOGENES",
+            "dias": ["Miércoles", "Viernes", "Jueves"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E504", "E521", "E202"]
+        },
+        {
+            "grupo": "22",
+            "docente": "JALDIN QUIROZ RENE",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "17:15 - 18:45"],
+            "aulas": ["E PB-2", "E107", "E110"]
+        },
+        {
+            "grupo": "27",
+            "docente": "URQUIDI BELLIDO SONIA",
+            "dias": ["Lunes", "Jueves", "Viernes"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E524", "E PB-1", "E406"]
+        }
+    ],
+    "MACROECONOMIA": [
+        {
+            "grupo": "01",
+            "docente": "TORRES ARANDIA WILLIAM",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["E544", "E521", "E545"]
+        },
+        {
+            "grupo": "02",
+            "docente": "ROMERO PADILLA CESAR",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["17:15 - 18:45", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E202", "E502", "E203"]
+        },
+        {
+            "grupo": "20",
+            "docente": "VILLAZON DEL CARPIO OSMAN ERICK",
+            "dias": ["Miércoles", "Jueves", "Viernes"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+            "aulas": ["E546", "E546", "E544"]
+        },
+        {
+            "grupo": "21",
+            "docente": "CONDORI ARIAS HERMOGENES",
+            "dias": ["Martes", "Jueves", "Viernes"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "18:45 - 20:15"],
+            "aulas": ["E502", "E206", "E206"]
+        },
+        {
+            "grupo": "22",
+            "docente": "SUCRE REYES MARIA ANTONIETA",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["09:45 - 11:15", "08:15 - 09:45", "09:45 - 11:15"],
+            "aulas": ["E504", "E204", "E201"]
+        },
+        {
+            "grupo": "23",
+            "docente": "ESCALERA MELGAR ALBERTO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E102", "E204", "E PB-1"]
+        },
+        {
+            "grupo": "27",
+            "docente": "ZUBIETA FLORIDO FREDDY",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["18:45 - 20:15", "17:15 - 18:45", "18:45 - 20:15"],
+            "aulas": ["E309", "E205", "E501"]
+        }
+    ]
+    },
+    "NIVEL D": {
+        "PROCEDIMIENTOS ADMINISTRATIVOS": [
+        {
+            "grupo": "01",
+            "docente": "LOPEZ GUMUCIO RICARDO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "08:15 - 09:45"],
+            "aulas": ["E524", "E504", "E202"]
+        },
+        {
+            "grupo": "02",
+            "docente": "GUZMAN DURAN GONZALO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "08:15 - 09:45"],
+            "aulas": ["E502", "E521", "E208"]
+        },
+        {
+            "grupo": "21",
+            "docente": "CARDENAS SARAVIA TITO IVAN",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E304", "E304", "E304"]
+        }
+    ],
+    "PRESUPUESTOS": [
+        {
+            "grupo": "01",
+            "docente": "MARTINEZ ALPIRI ANAHI MONICA",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["08:15 - 09:45", "09:45 - 11:15", "08:15 - 09:45"],
+            "aulas": ["E544", "E544", "E541"]
+        },
+        {
+            "grupo": "02",
+            "docente": "CACERES MONTERO JAIME",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E541", "E508", "E541"]
+        },
+        {
+            "grupo": "20",
+            "docente": "TORRICO LARA ALEX",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E545", "E102", "E109"]
+        },
+        {
+            "grupo": "21",
+            "docente": "CACERES MONTERO JAIME",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E206", "E204", "EPB-4"]
+        }
+    ],
+    "INFORMATICA I": [
+        {
+            "grupo": "01",
+            "docente": "MONTANO QUIROGA VICTOR HUGO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E401", "E406", "E406"]
+        },
+        {
+            "grupo": "02",
+            "docente": "VELARDE POMA JUAN CARLOS",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E548", "E548", "E548"]
+        },
+        {
+            "grupo": "20",
+            "docente": "SANDOVAL ARNEZ JUAN ALBERTO",
+            "dias": ["Lunes", "Jueves", "Sábado"],
+            "horarios": ["20:15 - 21:45", "06:45 - 08:15", "08:15 - 09:45"],
+            "aulas": ["E548", "E547", "E548"]
+        },
+        {
+            "grupo": "21",
+            "docente": "TORRICO OCAMPO ENRIQUE",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["E402", "E402", "E402"]
+        },
+        {
+            "grupo": "22",
+            "docente": "CAMACHO DEL CASTILLO INDIRA",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+            "aulas": ["E406", "E401", "E406"]
+        },
+        {
+            "grupo": "23",
+            "docente": "JORDAN SANCHEZ JUAN CARLOS",
+            "dias": ["Lunes", "Jueves", "Sábado"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "08:15 - 09:45"],
+            "aulas": ["E407", "E402", "E406"]
+        }
+    ],
+    "COSTOS PARA LA TOMA DE DECISIONES": [
+        {
+            "grupo": "01",
+            "docente": "RIVERA MICHEL HENRY",
+            "dias": ["Miércoles", "Jueves", "Viernes"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "15:45 - 17:15"],
+            "aulas": ["E PB-2", "E PB-2", "E 104"]
+        },
+        {
+            "grupo": "02",
+            "docente": "CHOQUEPALPA RIOZ ORLANDO DANIEL",
+            "dias": ["Jueves", "Viernes", "Jueves"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "14:15 - 15:45"],
+            "aulas": ["E504", "E 109", "E PB-4"]
+        },
+        {
+            "grupo": "03",
+            "docente": "RIVERA MICHEL HENRY",
+            "dias": ["Miércoles", "Jueves", "Lunes"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "15:45 - 17:15"],
+            "aulas": ["E544", "E 104", "E503"]
+        },
+        {
+            "grupo": "20",
+            "docente": "RIVERA MICHEL HENRY",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "12:45 - 14:15"],
+            "aulas": ["E 408", "E544", "E544"]
+        },
+        {
+            "grupo": "21",
+            "docente": "CHOQUEPALPA RIOZ ORLANDO DANIEL",
+            "dias": ["Jueves", "Viernes", "Viernes"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "17:15 - 18:45"],
+            "aulas": ["E 109", "E502", "E203"]
+        },
+        {
+            "grupo": "22",
+            "docente": "RIVERA MICHEL HENRY",
+            "dias": ["Lunes", "Jueves", "Sábado"],
+            "horarios": ["18:45 - 20:15", "17:15 - 18:45", "11:15 - 12:45"],
+            "aulas": ["E530", "E546", "E205"]
+        }
+    ],
+    "ANÁLISIS DE ESTADOS FINANCIEROS": [
+        {
+            "grupo": "01",
+            "docente": "PRADEL SERRANO RUTH ISABEL",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["18:45 - 20:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E520", "E521", "E521"]
+        },
+        {
+            "grupo": "02",
+            "docente": "COCA GONZALES ALBERTO",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E 209", "E523", "E 101"]
+        },
+        {
+            "grupo": "03",
+            "docente": "MONTAÑO VARGAS OSCAR",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["18:45 - 20:15", "06:45 - 08:15", "18:45 - 20:15"],
+            "aulas": ["E 109", "E 404", "E 204"]
+        },
+        {
+            "grupo": "20",
+            "docente": "LOPEZ LOPEZ JAIME",
+            "dias": ["Miércoles", "Viernes", "Sábado"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "09:45 - 11:15"],
+            "aulas": ["E503", "E521", "E522"]
+        },
+        {
+            "grupo": "21",
+            "docente": "MONTAÑO VARGAS OSCAR",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["06:45 - 08:15", "18:45 - 20:15", "06:45 - 08:15"],
+            "aulas": ["E520", "E 206", "E520"]
+        }
+    ]
+    },
+    "NIVEL E": {
+        "INGLÉS I": [
+        {
+            "grupo": "08",
+            "docente": "PARDO FERNANDEZ JULIO FRANCO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "08:15 - 09:45"],
+            "aulas": ["E 108", "E 207", "E PB-4"]
+        },
+        {
+            "grupo": "A1",
+            "docente": "VALLEJO ECHEVERRIA JULIAN",
+            "dias": ["Lunes", "Martes", "Jueves"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E 306", "E 303", "E517"]
+        }
+    ],
+    "METODOLOGÍA DE INVESTIGACIÓN II": [
+        {
+            "grupo": "01",
+            "docente": "VALLEJO BELTRAN ENZO MAURICIO",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+            "aulas": ["E506", "E521", "E501"]
+        },
+        {
+            "grupo": "20",
+            "docente": "SEVILLA CESPEDES CLAUDIA",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["11:15 - 12:45", "08:15 - 09:45", "11:15 - 12:45"],
+            "aulas": ["E503", "E103", "E202"]
+        },
+        {
+            "grupo": "21",
+            "docente": "ZAMBRANA TRIVENO JOSE EMILIO",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+            "aulas": ["E504", "E518", "E504"]
+        },
+        {
+            "grupo": "22",
+            "docente": "MANZANO ANZALDO NELSON TITO",
+            "dias": ["Lunes", "Martes", "Jueves"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["E206", "E107", "E108"]
+        }
+    ],
+    "INFORMÁTICA II": [
+        {
+            "grupo": "01",
+            "docente": "GUEVARA ESPINOZA JORGE",
+            "dias": ["Lunes", "Martes", "Jueves"],
+            "horarios": ["06:45 - 08:15", "20:15 - 21:45", "06:45 - 08:15"],
+            "aulas": ["E406", "E402", "E406"]
+        },
+        {
+            "grupo": "02",
+            "docente": "RODRIGUEZ MARTINEZ EDUARDO",
+            "dias": ["Martes", "Jueves", "Sábado"],
+            "horarios": ["20:15 - 21:45", "18:45 - 20:15", "09:45 - 11:15"],
+            "aulas": ["E401", "E401", "E402"]
+        },
+        {
+            "grupo": "03",
+            "docente": "COVARRUBIAS VARGAS CAUJMAN",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["E401", "E548", "E401"]
+        },
+        {
+            "grupo": "20",
+            "docente": "AVILA MAMANI HECTOR JOSE",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["18:45 - 20:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E401", "E407", "E550"]
+        }
+    ],
+    "LEGISLACIÓN LABORAL": [
+        {
+            "grupo": "01",
+            "docente": "MUÑOZ CRESPO ALBERTO DANIEL",
+            "dias": ["Martes", "Jueves", "Viernes"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E202", "E206", "E524"]
+        },
+        {
+            "grupo": "02",
+            "docente": "MUÑOZ CRESPO ALBERTO DANIEL",
+            "dias": ["Martes", "Jueves", "Viernes"],
+            "horarios": ["11:15 - 12:45", "09:45 - 11:15", "11:15 - 12:45"],
+            "aulas": ["E102", "E109", "E101"]
+        },
+        {
+            "grupo": "20",
+            "docente": "AMURRIO MARQUEZ MARY",
+            "dias": ["Miércoles", "Viernes", "Sábado"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E502", "E204", "E201"]
+        }
+    ],
+    "PSICOLOGÍA ORGANIZACIONAL": [
+        {
+            "grupo": "20",
+            "docente": "PARDO FERNANDEZ JULIO FRANCO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["17:15 - 18:45", "06:45 - 08:15", "17:15 - 18:45"],
+            "aulas": ["E109", "PB-4", "E302"]
+        },
+        {
+            "grupo": "21",
+            "docente": "VILDOZO ZAMORANO WALTER FERNANDO",
+            "dias": ["Lunes", "Viernes", "Sábado"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E104", "E102", "E503"]
+        },
+        {
+            "grupo": "22",
+            "docente": "VILLAZON ARANDIA RICARDO IVAN",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "20:15 - 21:45"],
+            "aulas": ["E546", "E544", "E541"]
+        },
+        {
+            "grupo": "23",
+            "docente": "RODRIGUEZ HURTADO JOSE LUIS",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E404", "E408", "E404"]
+        }
+    ],
+    "ADMINISTRACIÓN PÚBLICA": [
+        {
+            "grupo": "01",
+            "docente": "ESPADA FLORES JUAN RAMIRO",
+            "dias": ["Martes", "Jueves", "Sábado"],
+            "horarios": ["12:45 - 14:15", "11:15 - 12:45", "08:15 - 09:45"],
+            "aulas": ["E523", "E524", "E520"]
+        },
+        {
+            "grupo": "02",
+            "docente": "RODRIGUEZ MARTINEZ EDUARDO",
+            "dias": ["Lunes", "Jueves", "Sábado"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "11:15 - 12:45"],
+            "aulas": ["E524", "E521", "E504"]
+        },
+        {
+            "grupo": "20",
+            "docente": "JALDIN QUIROZ JOSE ALFREDO",
+            "dias": ["Miércoles", "Jueves", "Viernes"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E209", "E520", "E110"]
+        },
+        {
+            "grupo": "21",
+            "docente": "PANTOJA ROCHA YURI NEWTON",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["E109", "E101", "E109"]
+        },
+        {
+            "grupo": "22",
+            "docente": "AYALA MENDOZA AMILCAR",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E302", "E104", "E307"]
+        }
+    ]
+    },
+    "NIVEL F": {
+    "INGLÉS II": [
+        {
+            "grupo": "07",
+            "docente": "PARDO FERNANDEZ JULIO FRANCO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "09:45 - 11:15"],
+            "aulas": ["E209", "E209", "E207"]
+        },
+        {
+            "grupo": "B1",
+            "docente": "VALLEJO ECHEVERRIA JULIAN",
+            "dias": ["Lunes", "Martes", "Jueves"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+            "aulas": ["E109", "E304", "E103"]
+        }
+    ],
+    "PRODUCCIÓN I": [
+        {
+            "grupo": "01",
+            "docente": "CALLA VILLEGAS EDWIN",
+            "dias": ["Lunes", "Viernes"],
+            "horarios": ["18:45 - 20:15", "17:15 - 18:45"],
+            "aulas": ["E517", "E105"]
+        },
+        {
+            "grupo": "02",
+            "docente": "CALLA VILLEGAS EDWIN",
+            "dias": ["Lunes", "Miércoles"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E506", "E109"]
+        },
+        {
+            "grupo": "03",
+            "docente": "ZAPATA BARRIENTOS JOSE RAMIRO",
+            "dias": ["Lunes", "Martes"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E502", "E511"]
+        },
+        {
+            "grupo": "20",
+            "docente": "ZAPATA BARRIENTOS JOSE RAMIRO",
+            "dias": ["Lunes", "Miércoles"],
+            "horarios": ["11:15 - 12:45", "08:15 - 09:45"],
+            "aulas": ["E103", "E502"]
+        }
+    ],
+    "FINANZAS I": [
+        {
+            "grupo": "01",
+            "docente": "LEYTON GUTIERREZ SONIA",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "09:45 - 11:15"],
+            "aulas": ["E523", "E524", "E304"]
+        },
+        {
+            "grupo": "20",
+            "docente": "AGREDA MONTANO GUIDO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "09:45 - 11:15"],
+            "aulas": ["E521", "E521", "E523"]
+        },
+        {
+            "grupo": "21",
+            "docente": "SUAZNABAR CLAROS FERNANDO ALBERTO",
+            "dias": ["Martes", "Miércoles", "Viernes"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "06:45 - 08:15"],
+            "aulas": ["E545", "E545", "E520"]
+        }
+    ],
+    "INVESTIGACION OPERATIVA": [
+        {
+            "grupo": "01",
+            "docente": "VILLAGOMEZ VILLARROEL CESAR",
+            "dias": ["Miércoles", "Viernes", "Sábado"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "08:15 - 09:45"],
+            "aulas": ["E542", "E544", "E544"]
+        },
+        {
+            "grupo": "20",
+            "docente": "VALDEZ ESCOBAR JORGE",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "09:45 - 11:15"],
+            "aulas": ["E404", "E522", "E522"]
+        },
+        {
+            "grupo": "21",
+            "docente": "VALDEZ ESCOBAR JORGE",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+            "aulas": ["E404", "E404", "E404"]
+        },
+        {
+            "grupo": "22",
+            "docente": "VILLAGOMEZ VILLARROEL CESAR",
+            "dias": ["Martes", "Jueves", "Sábado"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "11:15 - 12:45"],
+            "aulas": ["E544", "E546", "E544"]
+        }
+    ],
+    "MERCADOTECNIA I": [
+        {
+            "grupo": "01",
+            "docente": "CALLA VILLEGAS EDWIN",
+            "dias": ["Martes", "Miércoles", "Viernes"],
+            "horarios": ["15:45 - 17:15", "15:45 - 17:15", "15:45 - 17:15"],
+            "aulas": ["E109", "E109", "E201"]
+        },
+        {
+            "grupo": "20",
+            "docente": "ZEGARRA SALDANA PABLO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["20:15 - 21:45", "18:45 - 20:15", "06:45 - 08:15"],
+            "aulas": ["E205", "E103", "E205"]
+        },
+        {
+            "grupo": "21",
+            "docente": "NAVIA QUIROGA GUSTAVO",
+            "dias": ["Martes", "Viernes", "Sábado"],
+            "horarios": ["20:15 - 21:45", "17:15 - 18:45", "09:45 - 11:15"],
+            "aulas": ["EPB-4", "E502", "E503"]
+        }
+    ],
+    "PERSONAL I": [
+        {
+            "grupo": "01",
+            "docente": "BADANI LENZ RAFAEL FERNANDO",
+            "dias": ["Lunes", "Jueves", "Viernes"],
+            "horarios": ["18:45 - 20:15", "20:15 - 21:45", "11:15 - 12:45"],
+            "aulas": ["E503", "E203", "E201"]
+        },
+        {
+            "grupo": "02",
+            "docente": "GUZMAN BROCKMANN FELIPE HANS WIGBERTO",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E504", "EPB-4", "EPB-4"]
+        },
+        {
+            "grupo": "20",
+            "docente": "BADANI LENZ RAFAEL FERNANDO",
+            "dias": ["Lunes", "Jueves", "Viernes"],
+            "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+            "aulas": ["EPB-4", "E523", "E202"]
+        },
+        {
+            "grupo": "21",
+            "docente": "CRESPO FLORES RENE CARLOS",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["15:45 - 17:15", "15:45 - 17:15", "15:45 - 17:15"],
+            "aulas": ["E524", "E201", "E521"]
+        }
+    ]
+    },
+    "NIVEL G": {
+        "PRODUCCION II": [
+        {
+            "grupo": "01",
+            "docente": "ZAPATA BARRIENTOS JOSE RAMIRO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "09:45 - 11:15"],
+            "aulas": ["E502", "E502", "E502"]
+        },
+        {
+            "grupo": "02",
+            "docente": "VALDIVIEZO MALDONADO LINO JUAN CARLOS",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E207", "E204", "E207"]
+        },
+        {
+            "grupo": "20",
+            "docente": "CALLA VILLEGAS EDWIN",
+            "dias": ["Martes", "Jueves", "Viernes"],
+            "horarios": ["14:15 - 15:45", "14:15 - 15:45", "14:15 - 15:45"],
+            "aulas": ["E109", "E109", "E109"]
+        }
+    ],
+    "MERCADOTECNIA II": [
+        {
+            "grupo": "02",
+            "docente": "NAVIA QUIROGA GUSTAVO",
+            "dias": ["Lunes", "Martes", "Jueves"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E502", "E504", "E502"]
+        },
+        {
+            "grupo": "20",
+            "docente": "AYMA SOTO FELIX MARCELO",
+            "dias": ["Miércoles", "Jueves", "Viernes"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E305", "E305", "E306"]
+        }
+    ],
+    "GERENCIA OPERATIVA": [
+        {
+            "grupo": "01",
+            "docente": "VARGAS ANTEZANA ADEMAR MARCELO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["14:15 - 15:45", "08:15 - 09:45", "14:15 - 15:45"],
+            "aulas": ["E PB-4", "E522", "E523"]
+        },
+        {
+            "grupo": "20",
+            "docente": "MOSCOSO FORONDA DAVID",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E209", "E209", "E209"]
+        },
+        {
+            "grupo": "21",
+            "docente": "MOSCOSO FORONDA DAVID",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "20:15 - 21:45"],
+            "aulas": ["E307", "E307", "E307"]
+        },
+        {
+            "grupo": "22",
+            "docente": "MOSCOSO FORONDA DAVID",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E309", "E302", "E304"]
+        }
+    ],
+    "MERCADOTECNIA III": [
+        {
+            "grupo": "20",
+            "docente": "ZEGARRA SALDANA PABLO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["18:45 - 20:15", "20:15 - 21:45", "12:45 - 14:15"],
+            "aulas": ["E521", "E203", "E106"]
+        },
+        {
+            "grupo": "21",
+            "docente": "ZAPATA BARRIENTOS JOSE RAMIRO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["E307", "E203", "E525"]
+        }
+    ],
+    "MERCADOTECNIA V": [
+        {
+            "grupo": "01",
+            "docente": "ZAPATA BARRIENTOS JOSE RAMIRO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["14:15 - 15:45", "11:15 - 12:45", "11:15 - 12:45"],
+            "aulas": ["E502", "E503", "E101"]
+        }
+    ],
+    "FINANZAS II": [
+        {
+            "grupo": "20",
+            "docente": "AGREDA MONTANO GUIDO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E521", "E521", "E523"]
+        }
+    ],
+    "ADMINISTRACION DE COOPERATIVAS": [
+        {
+            "grupo": "20",
+            "docente": "AGREDA MONTANO GUIDO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["15:45 - 17:15", "15:45 - 17:15", "15:45 - 17:15"],
+            "aulas": ["E521", "E522", "E523"]
+        }
+    ],
+    "PERSONAL II": [
+        {
+            "grupo": "01",
+            "docente": "MENDOZA ARAOZ JAMIL MARCELO",
+            "dias": ["Lunes", "Jueves", "Sábado"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "09:45 - 11:15"],
+            "aulas": ["E521", "E102", "E502"]
+        },
+        {
+            "grupo": "20",
+            "docente": "RAMIREZ MOLINA GONZALO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E206", "E501", "E207"]
+        },
+        {
+            "grupo": "21",
+            "docente": "MENDOZA ARAOZ JAMIL MARCELO",
+            "dias": ["Martes", "Viernes", "Sábado"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "11:15 - 12:45"],
+            "aulas": ["E110", "E304", "E102"]
+        }
+    ],
+    "PERSONAL III": [
+        {
+            "grupo": "01",
+            "docente": "VALDEZ ZEGARRA RAFAEL A.",
+            "dias": ["Lunes", "Jueves", "Sábado"],
+            "horarios": ["20:15 - 21:45", "18:45 - 20:15", "08:15 - 09:45"],
+            "aulas": ["E202", "E502", "E522"]
+        }
+    ]
+    },
+    "NIVEL H": {
+        "POLITICA EMPRESARIAL": [
+        {
+            "grupo": "01",
+            "docente": "CAMACHO GUZMAN FRANCO ARTURO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "08:15 - 09:45"],
+            "aulas": ["E309", "E309", "E109"]
+        },
+        {
+            "grupo": "02",
+            "docente": "GUTIERREZ OVANDO ISELA",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["15:45 - 17:15", "11:15 - 12:45", "15:45 - 17:15"],
+            "aulas": ["E542", "E209", "E306"]
+        },
+        {
+            "grupo": "20",
+            "docente": "RODRIGUEZ HURTADO JOSE LUIS",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "09:45 - 11:15"],
+            "aulas": ["E204", "E305", "E204"]
+        }
+    ],
+    "PREPARACION Y EVALUACION DE PROYECTOS": [
+        {
+            "grupo": "01",
+            "docente": "OLIVERA TAPIA JUAN CARLOS",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E204", "E106", "E513"]
+        },
+        {
+            "grupo": "20",
+            "docente": "CHAVEZ MARCELA MABEL",
+            "dias": ["Lunes", "Miércoles", "Sábado"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "08:15 - 09:45"],
+            "aulas": ["E203", "E207", "E203"]
+        },
+        {
+            "grupo": "21",
+            "docente": "CHAVEZ MARCELA MABEL",
+            "dias": ["Lunes", "Miércoles", "Sábado"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "09:45 - 11:15"],
+            "aulas": ["E203", "E202", "E202"]
+        }
+    ],
+    "TALLER I": [
+        {
+            "grupo": "01",
+            "docente": "VILDOZO ZAMORANO WALTER FERNANDO",
+            "dias": ["Lunes", "Jueves", "Viernes"],
+            "horarios": ["09:45 - 11:15", "20:15 - 21:45", "09:45 - 11:15"],
+            "aulas": ["E106", "E209", "E109"]
+        },
+        {
+            "grupo": "03",
+            "docente": "RODRIGUEZ HURTADO JOSE LUIS",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+            "aulas": ["E304", "E110", "E103"]
+        },
+        {
+            "grupo": "22",
+            "docente": "LOPEZ GUMUCIO RICARDO",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["06:45 - 08:15", "06:45 - 08:15", "06:45 - 08:15"],
+            "aulas": ["ADM1", "ADM1", "ADM1"]
+        },
+        {
+            "grupo": "23",
+            "docente": "VALDIVIEZO MALDONADO LINO JUAN CARLOS",
+            "dias": ["Martes", "Jueves", "Viernes"],
+            "horarios": ["09:45 - 11:15", "11:15 - 12:45", "11:15 - 12:45"],
+            "aulas": ["ADM1", "ADM1", "ADM1"]
+        }
+    ],
+    "MERCADOTECNIA VI": [
+        {
+            "grupo": "01",
+            "docente": "LOZADA TORRICO RUDY REMBERTO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["18:45 - 20:15", "20:15 - 21:45", "18:45 - 20:15"],
+            "aulas": ["E501", "E303", "E201"]
+        },
+        {
+            "grupo": "02",
+            "docente": "MEDRANO CLAURE DANNY OSCAR",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["09:45 - 11:15", "09:45 - 11:15", "09:45 - 11:15"],
+            "aulas": ["E203", "E203", "E208"]
+        }
+    ],
+    "MERCADOTECNIA VII": [
+        {
+            "grupo": "01",
+            "docente": "MENDOZA ARAOZ JAMIL MARCELO",
+            "dias": ["Lunes", "Miércoles", "Jueves"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "20:15 - 21:45"],
+            "aulas": ["E101", "E103", "E103"]
+        }
+    ],
+    "FINANZAS IV": [
+        {
+            "grupo": "01",
+            "docente": "VALLEJO RUIZ JAVIER",
+            "dias": ["Lunes", "Martes", "Sábado"],
+            "horarios": ["20:15 - 21:45", "18:45 - 20:15", "09:45 - 11:15"],
+            "aulas": ["E503", "E110", "E207"]
+        },
+        {
+            "grupo": "20",
+            "docente": "RODRIGUEZ MARTINEZ EDUARDO",
+            "dias": ["Martes", "Miércoles", "Viernes"],
+            "horarios": ["18:45 - 20:15", "20:15 - 21:45", "18:45 - 20:15"],
+            "aulas": ["E203", "E523", "E522"]
+        }
+    ],
+    "FINANZAS V": [
+        {
+            "grupo": "01",
+            "docente": "RODRIGUEZ MARTINEZ EDUARDO",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "20:15 - 21:45"],
+            "aulas": ["E522", "E524", "E521"]
+        }
+    ],
+    "PERSONAL IV": [
+        {
+            "grupo": "20",
+            "docente": "GUZMAN BROCKMANN FELIPE HANS WIGBERTO",
+            "dias": ["Lunes", "Miércoles", "Viernes"],
+            "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E202", "E504", "E205"]
+        }
+    ],
+    "PERSONAL V": [
+        {
+            "grupo": "20",
+            "docente": "RAMIREZ MOLINA GONZALO",
+            "dias": ["Lunes", "Martes", "Miércoles"],
+            "horarios": ["18:45 - 20:15", "15:45 - 17:15", "15:45 - 17:15"],
+            "aulas": ["E109", "E208", "E208"]
+        }
+    ]
+    },
+    "NIVEL I": {
+        "ADMINISTRACION DE PROYECTOS": [
+    {
+        "grupo": "01",
+        "docente": "SEJAS CHOQUE JUAN CARLOS",
+        "dias": ["Martes", "Miércoles", "Jueves"],
+        "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+        "aulas": ["E520", "E504", "E PB-4"]
+    },
+    {
+        "grupo": "02",
+        "docente": "FERRUFINO GARCIA ALEXANDER",
+        "dias": ["Lunes", "Miércoles", "Viernes"],
+        "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+        "aulas": ["E110", "E302", "E110"]
+    },
+    {
+        "grupo": "20",
+        "docente": "PARDO FERNANDEZ JULIO FRANCO",
+        "dias": ["Lunes", "Martes", "Miércoles"],
+        "horarios": ["06:45 - 08:15", "17:15 - 18:45", "06:45 - 08:15"],
+        "aulas": ["E205", "E109", "E203"]
+    }
+    ],
+    "LEGISLACION EMPRESARIAL": [
+        {
+            "grupo": "01",
+            "docente": "JIMENEZ PINTO EDWIN",
+            "dias": ["Miércoles", "Jueves", "Viernes"],
+            "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+            "aulas": ["E206", "E504", "E109"]
+        },
+        {
+            "grupo": "02",
+            "docente": "JIMENEZ PINTO EDWIN",
+            "dias": ["Miércoles", "Jueves", "Sábado"],
+            "horarios": ["20:15 - 21:45", "20:15 - 21:45", "11:15 - 12:45"],
+            "aulas": ["E504", "E504", "E520"]
+        },
+        {
+            "grupo": "03",
+            "docente": "AYALA MENDOZA AMILCAR",
+            "dias": ["Miércoles", "Jueves", "Viernes"],
+            "horarios": ["20:15 - 21:45", "18:45 - 20:15", "18:45 - 20:15"],
+            "aulas": ["E203", "E PB-4", "E PB-4"]
+        },
+        {
+            "grupo": "04",
+            "docente": "QUIROZ GOMEZ CARMEN RITA",
+            "dias": ["Martes", "Miércoles", "Jueves"],
+            "horarios": ["11:15 - 12:45", "08:15 - 09:45", "11:15 - 12:45"],
+            "aulas": ["E520", "E521", "E514"]
+        }
+    ],
+    "TALLER II": [
+    {
+        "grupo": "F1",
+        "docente": "TORRES ARANDIA WILLIAM",
+        "dias": ["Lunes", "Miércoles", "Jueves"],
+        "horarios": ["14:15 - 15:45", "14:15 - 15:45", "14:15 - 15:45"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "F3",
+        "docente": "RAMIREZ MOLINA GONZALO",
+        "dias": ["Lunes", "Martes", "Miércoles"],
+        "horarios": ["15:45 - 17:15", "09:45 - 11:15", "09:45 - 11:15"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "F4",
+        "docente": "VALDIVIEZO MALDONADO LINO JUAN CARLOS",
+        "dias": ["Lunes", "Jueves", "Viernes"],
+        "horarios": ["08:15 - 09:45", "08:15 - 09:45", "08:15 - 09:45"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "F5",
+        "docente": "VARGAS OROSCO FREDDY",
+        "dias": ["Lunes", "Miércoles", "Viernes"],
+        "horarios": ["09:45 - 11:15", "09:45 - 11:15", "09:45 - 11:15"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "M1",
+        "docente": "AYMA SOTO FELIX MARCELO",
+        "dias": ["Lunes", "Martes", "Viernes"],
+        "horarios": ["18:45 - 20:15", "18:45 - 20:15", "20:15 - 21:45"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "M2",
+        "docente": "VILLAZON ARANDIA RICARDO IVAN",
+        "dias": ["Lunes", "Martes", "Miércoles"],
+        "horarios": ["17:15 - 18:45", "17:15 - 18:45", "17:15 - 18:45"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "M3",
+        "docente": "POZO VALLEJOS MARIA ESTHER",
+        "dias": ["Lunes", "Miércoles", "Viernes"],
+        "horarios": ["12:45 - 14:15", "12:45 - 14:15", "12:45 - 14:15"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "M4",
+        "docente": "MOSCOSO FORONDA DAVID",
+        "dias": ["Lunes", "Miércoles", "Jueves"],
+        "horarios": ["15:45 - 17:15", "15:45 - 17:15", "15:45 - 17:15"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "M5",
+        "docente": "CARDENAS SARAVIA TITO IVAN",
+        "dias": ["Lunes", "Martes", "Miércoles"],
+        "horarios": ["15:45 - 17:15", "15:45 - 17:15", "15:45 - 17:15"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "M7",
+        "docente": "RAMIREZ MOLINA GONZALO",
+        "dias": ["Lunes", "Martes", "Miércoles"],
+        "horarios": ["20:15 - 21:45", "20:15 - 21:45", "20:15 - 21:45"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "M8",
+        "docente": "VILLAZON DEL CARPIO OSMAN ERICK",
+        "dias": ["Miércoles", "Jueves", "Viernes"],
+        "horarios": ["09:45 - 11:15", "12:45 - 14:15", "12:45 - 14:15"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    },
+    {
+        "grupo": "R1",
+        "docente": "VALDEZ ZEGARRA RAFAEL A.",
+        "dias": ["Lunes", "Miércoles", "Viernes"],
+        "horarios": ["18:45 - 20:15", "18:45 - 20:15", "18:45 - 20:15"],
+        "aulas": ["E202", "E525", "E202"]
+    },
+    {
+        "grupo": "R4",
+        "docente": "BURGOS MEDINA CARLOS ALBERTO",
+        "dias": ["Lunes", "Martes", "Miércoles"],
+        "horarios": ["20:15 - 21:45", "20:15 - 21:45", "17:15 - 18:45"],
+        "aulas": ["E308", "E308", "E104"]
+    },
+    {
+        "grupo": "R5",
+        "docente": "ZEGARRA SALDANA PABLO",
+        "dias": ["Lunes", "Martes", "Miércoles"],
+        "horarios": ["17:15 - 18:45", "17:15 - 18:45", "14:15 - 15:45"],
+        "aulas": ["ADM1", "ADM1", "ADM1"]
+    }
+    ],
+    "MERCADOTECNIA IV": [
+    {
+        "grupo": "01",
+        "docente": "NAVIA QUIROGA GUSTAVO",
+        "dias": ["Miércoles", "Viernes", "Sábado"],
+        "horarios": ["11:15 - 12:45", "18:45 - 20:15", "08:15 - 09:45"],
+        "aulas": ["E502", "E502", "E501"]
+    },
+    {
+        "grupo": "20",
+        "docente": "NAVIA QUIROGA GUSTAVO",
+        "dias": ["Lunes", "Miércoles", "Viernes"],
+        "horarios": ["18:45 - 20:15", "20:15 - 21:45", "20:15 - 21:45"],
+        "aulas": ["E502", "E502", "E504"]
+    },
+    {
+        "grupo": "21",
+        "docente": "IRIARTE DE LA FUENTE MARCELA",
+        "dias": ["Lunes", "Martes", "Jueves"],
+        "horarios": ["11:15 - 12:45", "11:15 - 12:45", "11:15 - 12:45"],
+        "aulas": ["E502", "E502", "E502"]
+    }
+    ],
+    "FINANZAS VI": [
+    {
+        "grupo": "20",
+        "docente": "VALLEJO RUIZ JAVIER",
+        "dias": ["Lunes", "Miércoles", "Sábado"],
+        "horarios": ["18:45 - 20:15", "18:45 - 20:15", "06:45 - 08:15"],
+        "aulas": ["E548", "E 106", "E520"]
+    }
+    ],
+    "PERSONAL VI": [
+    {
+        "grupo": "20",
+        "docente": "BADANI LENZ RAFAEL FERNANDO",
+        "dias": ["Martes", "Miércoles", "Sábado"],
+        "horarios": ["20:15 - 21:45", "20:15 - 21:45", "08:15 - 09:45"],
+        "aulas": ["E 109", "E 109", "E521"]
+    }
+    ],
+    "PRACTICA EMPRESARIAL": [
+    {
+        "grupo": "20",
+        "docente": "VILDOZO ZAMORANO WALTER FERNANDO",
+        "dias": ["Lunes", "Viernes", "Sábado"],
+        "horarios": ["12:45 - 14:15", "11:15 - 12:45", "11:15 - 12:45"],
+        "aulas": ["E 105", "E 102", "E 109"]
+    },
+    {
+        "grupo": "21",
+        "docente": "GUZMAN BROCKMANN FELIPE HANS WIGBERTO",
+        "dias": ["Martes", "Jueves", "Sábado"],
+        "horarios": ["18:45 - 20:15", "17:15 - 18:45", "08:15 - 09:45"],
+        "aulas": ["E502", "E503", "E 205"]
+    },
+    {
+        "grupo": "22",
+        "docente": "CHAVEZ MARCELA MABEL",
+        "dias": ["Lunes", "Viernes", "Sábado"],
+        "horarios": ["17:15 - 18:45", "20:15 - 21:45", "11:15 - 12:45"],
+        "aulas": ["E 301", "E 202", "E 203"]
+    },
+    {
+        "grupo": "23",
+        "docente": "MALDONADO ROJAS RAMIRO",
+        "dias": ["Lunes", "Miércoles", "Jueves"],
+        "horarios": ["06:45 - 08:15", "08:15 - 09:45", "06:45 - 08:15"],
+        "aulas": ["E 109", "E544", "E 301"]
+    },
+    {
+        "grupo": "24",
+        "docente": "CHAVEZ MARCELA MABEL",
+        "dias": ["Miércoles", "Jueves", "Viernes"],
+        "horarios": ["17:15 - 18:45", "20:15 - 21:45", "18:45 - 20:15"],
+        "aulas": ["E 201", "E 206", "E 207"]
+    }
+    ]
+    }
+}

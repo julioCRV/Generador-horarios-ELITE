@@ -1,0 +1,122 @@
+.contenedor {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+select {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2b849b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3fabc6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td div {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;   
+}
+
+#scheduleTable {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+#scheduleTable th,
+#scheduleTable td {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.select-option {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+/* Estilo de los select */
+.select-option select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 468px) {
+    .select-option select{
+        flex: 1;
+        min-width: 200px;
+        max-width: 100%;
+    }
+}
+
+/* Para pantallas más pequeñas */
+@media (max-width: 768px) {
+
+    #scheduleTable th,
+    #scheduleTable td {
+        font-size: 12px;
+        /* Reducir el tamaño de fuente */
+        padding: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    #scheduleTable {
+        min-width: 100%;
+        /* Hace que la tabla ocupe toda la pantalla */
+    }
+
+    #scheduleTable th,
+    #scheduleTable td {
+        font-size: 10px;
+        /* Hacer el texto más pequeño en celulares */
+        padding: 3px;
+    }
+}
