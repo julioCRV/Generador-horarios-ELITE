@@ -31,6 +31,12 @@
     text-decoration: underline;
 }
 
-.imagen {
-    width: 60px;
+.imagen1 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.imagen2 {
+    height: 80px;
 }

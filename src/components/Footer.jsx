@@ -1,13 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./Footer.css";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa"; // Importar iconos
 
 const Footer = () => {
     const [showInfo, setShowInfo] = useState(false);
+    const infoRef = useRef(null);
 
     const toggleInfo = () => {
         setShowInfo(!showInfo);
     };
+
+    useEffect(() => {
+        if (showInfo && infoRef.current) {
+            infoRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    }, [showInfo]);
 
     return (
         <footer className="footer">
@@ -19,36 +26,43 @@ const Footer = () => {
 
                 {/* Información de Alfa (se muestra al presionar el botón) */}
                 {showInfo && (
-                    <div className="info-box">
-                        <h2>Equipo de trabajo Alfa</h2>
-                        <br/>
+                    <div ref={infoRef} className="info-box">
+                        <br />
+                        <h2>Nosotros - ELITE FCE</h2>
+                        <br />
                         <p>
-                            Formar de manera integral a profesionales en Administración de Empresas dentro del Equipo de Trabajo Alfa, con una conciencia crítica, ética, responsable y actitud emprendedora...
+                            <strong>ELITE FCE</strong> es un grupo académico de la carrera de <strong>Ingeniería Comercial</strong>, creado para fortalecer el aprendizaje, la colaboración y el crecimiento profesional de los estudiantes.
+                            <br /><br />
+                            📚 <strong>¿Qué hacemos?</strong> <br />
+                            ✔ Compartimos materiales de estudio y recursos académicos. <br />
+                            ✔ Organizamos eventos, charlas y conferencias. <br />
+                            ✔ Fomentamos el networking y el desarrollo profesional. <br /><br />
+                            Somos una comunidad de futuros líderes en negocios, listos para marcar la diferencia.
+                            <strong>¡Súmate a ELITE FCE y potencia tu futuro! 🚀</strong>
                         </p>
+                        <br />
 
                         {/* Galería de imágenes */}
                         <div className="gallery">
-                            <img src="../A.jpg" alt="Foto 1" />
-                            <img src="../B.jpg" alt="Foto 2" />
-                            <img src="../C.jpeg" alt="Foto 3" />
-                            <img src="../D.jpeg" alt="Foto 4" />
+                            <img src="../A.jpeg" alt="Foto 1" />
                         </div>
+                        <br/>
                     </div>
                 )}
 
                 {/* Enlaces de WhatsApp en una sola fila */}
                 <div className="whatsapp-links">
-                    <a href="https://chat.whatsapp.com/LTFjVcXMGW18aW3twYOIA7" target="_blank" rel="noopener noreferrer">
+                    <a href="https://chat.whatsapp.com/IbrWGAtnD6O4LdbM9HPNZM" target="_blank" rel="noopener noreferrer">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-                        <span>Material de apoyo Alfa</span>
+                        <span>Grupo de Informaciones Ing. Comercial</span>
                     </a>
-                    <a href="https://chat.whatsapp.com/EDoKlZUnlM9EdTvGfWDIC5" target="_blank" rel="noopener noreferrer">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-                        <span>Trueque de material académico ADMI</span>
+                    <a href="https://www.facebook.com/share/15mNkbyrfE/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="WhatsApp" />
+                        <span>Página oficial ELITE FCE</span>
                     </a>
                 </div>
             </div>
-            <p>&copy; 2025 Alfa. Todos los derechos reservados.</p>
+            <p>&copy; 2025 ELITE FCE. Todos los derechos reservados.</p>
         </footer>
     );
 };

@@ -56,7 +56,7 @@ const HorarioOrganizador = () => {
   
       // Dimensiones para incluir el título y logo
       const logo = new Image();
-      logo.src = "./logo1.png";
+      logo.src = "./logo1.jpeg";
       logo.onload = () => {
         const padding = 20;
         const titleHeight = 50;
