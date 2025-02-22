@@ -15,6 +15,9 @@ const HorarioOrganizador = () => {
   const [materia, setMateria] = useState("");
   const [docente, setDocente] = useState("");
   const [horariosFiltrados, setHorariosFiltrados] = useState([]);
+  const [nivelAbierto, setNivelAbierto] = useState(null);
+  const [materiaAbierta, setMateriaAbierta] = useState(null);
+  const [docentesSeleccionados, setDocentesSeleccionados] = useState([]);
 
   // Reiniciar materia y docente cuando cambia el nivel, pero no borrar `horariosFiltrados`
   useEffect(() => {
@@ -45,6 +48,25 @@ const HorarioOrganizador = () => {
 
   const quitarDocente = (docenteGrupo) => {
     setHorariosFiltrados(horariosFiltrados.filter(h => `${h.docente} - Grupo ${h.grupo}` !== docenteGrupo));
+    const nuevaListaDocentes = docentesSeleccionados.filter(item => item !== docenteGrupo);
+    setDocentesSeleccionados(nuevaListaDocentes);
+  };
+
+  const agregarDocente = (docenteGrupo) => {
+    if (nivel && materia && docenteGrupo && data[nivel] && data[nivel][materia]) {
+      const [docenteNombre, grupo] = docenteGrupo.split(" - Grupo ");
+      const materiaData = data[nivel][materia];
+
+      // Filtrar horarios del docente y grupo seleccionados
+      const nuevoHorario = materiaData.filter(d => d.docente === docenteNombre && d.grupo === grupo);
+
+      // Evitar duplicados en la tabla
+      if (!horariosFiltrados.some(h => h.docente === docenteNombre && h.grupo === grupo && h.materia === materia)) {
+        setHorariosFiltrados([...horariosFiltrados, ...nuevoHorario.map(h => ({ ...h, materia }))]);
+      }
+    }
+
+    setDocente(docenteGrupo)
   };
 
   const handlePrint = () => {
@@ -73,7 +95,7 @@ const HorarioOrganizador = () => {
         ctx.fillStyle = "#000";
         ctx.font = "bold 20px Arial";
         ctx.textAlign = "center";
-        ctx.fillText("Administración de empresas", finalCanvas.width / 2, padding + 20);
+        ctx.fillText("INGENERÍA COMERCIAL", finalCanvas.width / 2, padding + 20);
 
         // Dibujar la tabla capturada debajo del título
         ctx.drawImage(canvas, 0, titleHeight + padding);
@@ -100,6 +122,7 @@ const HorarioOrganizador = () => {
       };
     });
   };
+
   const generarColorAleatorio = () => {
     const letras = "0123456789ABCDEF";
     let color = "#";
@@ -121,98 +144,137 @@ const HorarioOrganizador = () => {
   }, [docente]);
 
   return (
-    <div className="contenedor">
-      <h2>Organizador de horario</h2>
-      <br/>
-      <div className="select-option">
-        <select onChange={(e) => setNivel(e.target.value)} value={nivel}>
-          <option value="">Seleccione Nivel</option>
-          {Object.keys(data).map((nivel) => (
-            <option key={nivel} value={nivel}>{nivel}</option>
-          ))}
-        </select>
-
-        <select onChange={(e) => setMateria(e.target.value)} value={materia} disabled={!nivel || !data[nivel]}>
-          <option value="">Seleccione Materia</option>
-          {nivel && data[nivel] && Object.keys(data[nivel]).map((materia) => (
-            <option key={materia} value={materia}>{materia}</option>
-          ))}
-        </select>
-
-        <select onChange={(e) => setDocente(e.target.value)} value={docente} disabled={!materia || !data[nivel] || !data[nivel][materia]}>
-          <option value="">Seleccione Docente</option>
-          {materia && data[nivel] && data[nivel][materia] && data[nivel][materia].map((d, index) => (
-            <option key={index} value={`${d.docente} - Grupo ${d.grupo}`}>
-              {d.docente} - Grupo {d.grupo}
-            </option>
-          ))}
-        </select>
+    <>
+      <div className="contenedor-inicial">
+        <h2>Organizador de horario</h2>
+        <br />
+        <button onClick={handlePrint}>Imprimir</button>
       </div>
 
-      <button onClick={handlePrint}>Imprimir</button>
+      <div className="contenedor">
+        <br />
+        <div className="acordeon-container">
+          {Object.keys(data).map((nivel) => (
+            <div key={nivel} className="nivel">
+              <button
+                className="nivel-btn"
+                onClick={() => { setNivelAbierto(nivelAbierto === nivel ? null : nivel); setNivel(nivel) }}
+              >
+                {nivel} {nivelAbierto === nivel ? "▲" : "▼"}
+              </button>
 
-      <div className="table-container">
+              {nivelAbierto === nivel && (
+                <div className="materias">
+                  {Object.keys(data[nivel]).map((materia) => (
+                    <div key={materia} className="materia">
+                      <button
+                        className="materia-btn"
+                        onClick={() => { setMateriaAbierta(materiaAbierta === materia ? null : materia); setMateria(materia) }}
+                      >
+                        {materia} {materiaAbierta === materia ? "▲" : "▼"}
+                      </button>
 
-        <table id="scheduleTable" border="1">
-          <thead>
-            <tr>
-              <th>Horario</th>
-              {diasSemana.map(dia => <th key={dia}>{dia}</th>)}
-            </tr>
-          </thead>
-          <tbody>
-            {horarios.map((hora, idx) => (
-              <tr key={idx}>
-                <td>{hora}</td>
-                {diasSemana.map(dia => (
-                  <td key={dia}>
-                    {horariosFiltrados.map((h, index) =>
-                      h.dias.includes(dia) && h.horarios[h.dias.indexOf(dia)] === hora ? (
-                        <div
-                          key={index}
-                          style={{
-                            backgroundColor: coloresMaterias[h.materia] || "#ccc",
-                            color: "#fff",
-                            padding: "5px",
-                            borderRadius: "5px",
-                            textAlign: "center",
-                            fontSize: "12px",
-                            lineHeight: "1.2",
-                          }}
-                        >
-                          {h.materia} - {h.docente} ({h.grupo})
-                          <button
-                            onClick={() => quitarDocente(`${h.docente} - Grupo ${h.grupo}`)}
+                      {materiaAbierta === materia && (
+                        <ul className="docentes">
+                          {data[nivel][materia].map((d, index) => {
+                            const seleccionActual = `${d.docente} - Grupo ${d.grupo}`;
+                            const estaSeleccionado = docentesSeleccionados.includes(seleccionActual);
+
+                            return (
+                              <li
+                                key={index}
+                                className={`docente-item ${estaSeleccionado ? "seleccionado" : ""}`}
+                                onClick={() => {
+                                  if (!estaSeleccionado) {
+                                    agregarDocente(seleccionActual)
+                                  } else {
+                                    quitarDocente(seleccionActual)
+                                  }
+                                  setDocentesSeleccionados((prev) =>
+                                    estaSeleccionado
+                                      ? prev.filter((item) => item !== seleccionActual) // Quita si ya está seleccionado
+                                      : [...prev, seleccionActual] // Agrega si no está seleccionado
+                                  );
+                                }}
+                              >
+                                {d.docente} - Grupo {d.grupo}
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+
+        <div className="table-container">
+
+          <table id="scheduleTable" border="1">
+            <thead>
+              <tr>
+                <th>Horario</th>
+                {diasSemana.map(dia => <th key={dia}>{dia}</th>)}
+              </tr>
+            </thead>
+            <tbody>
+              {horarios.map((hora, idx) => (
+                <tr key={idx}>
+                  <td>{hora}</td>
+                  {diasSemana.map(dia => (
+                    <td key={dia}>
+                      {horariosFiltrados.map((h, index) =>
+                        h.dias.includes(dia) && h.horarios[h.dias.indexOf(dia)] === hora ? (
+                          <div
+                            key={index}
                             style={{
-                              marginLeft: "5px",
-                              backgroundColor: "#fff",
-                              color: "#000",
-                              border: "1px solid #ccc",
-                              cursor: "pointer",
-                              borderRadius: "50%",
-                              width: "25px",
-                              height: "25px",
-                              display: "inline-flex",
-                              alignItems: "center",
-                              justifyContent: "center",
-                              padding: "0",
+                              backgroundColor: coloresMaterias[h.materia] || "#ccc",
+                              color: "#fff",
+                              padding: "5px",
+                              borderRadius: "5px",
+                              textAlign: "center",
+                              fontSize: "12px",
+                              lineHeight: "1.2",
                             }}
                           >
-                            <FaTimes size={12} color="black" />
-                          </button>
-                        </div>
-                      ) : null
-                    )}
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
+                            {h.materia} - {h.docente} ({h.grupo})
+                            <button
+                              onClick={() => quitarDocente(`${h.docente} - Grupo ${h.grupo}`)}
+                              style={{
+                                marginLeft: "5px",
+                                backgroundColor: "#fff",
+                                color: "#000",
+                                border: "1px solid #ccc",
+                                cursor: "pointer",
+                                borderRadius: "50%",
+                                width: "25px",
+                                height: "25px",
+                                display: "inline-flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                padding: "0",
+                              }}
+                            >
+                              <FaTimes size={12} color="black" />
+                            </button>
+                          </div>
+                        ) : null
+                      )}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+
+        </div>
 
       </div>
-
-    </div>
+    </>
   );
 };
 

@@ -1,4 +1,9 @@
+.contenedor-inicial {
+    text-align: center;
+}
+
 .contenedor {
+    display: flex;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -13,8 +18,8 @@ select {
 }
 
 button {
-    background-color: #2b849b;
-    color: white;
+    background-color: #f5b906;
+    color: #1a237e;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -23,13 +28,14 @@ button {
 }
 
 button:hover {
-    background-color: #3fabc6;
+    background-color: #F2CB05;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    background-color: white;
 }
 
 th,
@@ -40,19 +46,15 @@ td {
 }
 
 th {
-    background-color: #333;
-    color: white;
+    background-color: #f5b906;
+    color: #1a237e;
+
 }
 
 td div {
     padding: 5px;
     border-radius: 5px;
     font-weight: bold;
-}
-
-.table-container {
-    width: 100%;
-    overflow-x: auto;   
 }
 
 #scheduleTable {
@@ -66,34 +68,6 @@ td div {
     padding: 5px;
     text-align: center;
     font-size: 14px;
-}
-
-.select-option {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    padding-bottom: 10px;
-}
-
-/* Estilo de los select */
-.select-option select {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: white;
-    cursor: pointer;
-}
-
-@media (max-width: 468px) {
-    .select-option select{
-        flex: 1;
-        min-width: 200px;
-        max-width: 100%;
-    }
 }
 
 /* Para pantallas más pequeñas */
@@ -115,8 +89,94 @@ td div {
 
     #scheduleTable th,
     #scheduleTable td {
-        font-size: 10px;
+        font-size: 8px;
         /* Hacer el texto más pequeño en celulares */
         padding: 3px;
     }
+
+    .acordeon-container {
+        width: 70%;
+    }
+
+    .table-container {
+        width: 20%;
+    }
+
+    .nivel-btn,
+    .materia-btn {
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        font-size: 6px;
+        background: #f5b906;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+}
+
+.table-container {
+    width: 80%;
+    padding: 10px;
+
+}
+
+.acordeon-container {
+    width: 40%;
+    padding-top: 25px;
+}
+
+.nivel-btn,
+.materia-btn {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    background: #f5b906;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.nivel-btn:hover,
+.materia-btn:hover {
+    background: #e0a800;
+}
+
+.materias,
+.docentes {
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #f5b906;
+}
+
+.docente-item {
+    list-style: none;
+    background: #ffe082;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.docente-item {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.docente-item:hover {
+    background-color: #ddd;
+}
+
+.docente-item.seleccionado {
+    background-color: #46e14b;
+    /* Verde */
+    color: white;
+    font-weight: bold;
 }

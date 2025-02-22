@@ -17,8 +17,8 @@
 
 /* Botón "Conócenos" con ícono dinámico */
 .btn-conocenos {
-    background-color: #2b849b;
-    color: white;
+    background-color: #f5b906;
+    color:  #1a237e;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -31,8 +31,7 @@
 }
 
 .btn-conocenos:hover {
-    background-color: #44b6d3;
-    ;
+    background-color: #F2CB05;
 }
 
 /* Contenedor de información */
