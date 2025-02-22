@@ -70,7 +70,7 @@ td div {
 
 .select-option {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     gap: 10px;
     justify-content: center;
     align-items: center;

@@ -49,48 +49,57 @@ const HorarioOrganizador = () => {
 
   const handlePrint = () => {
     const table = document.getElementById("scheduleTable");
-  
+
     html2canvas(table).then((canvas) => {
       const finalCanvas = document.createElement("canvas");
       const ctx = finalCanvas.getContext("2d");
-  
-      // Dimensiones para incluir el título y logo
+
+      // Cargar logo
       const logo = new Image();
-      logo.src = "./logo1.jpeg";
+      logo.src = "./logoIcon.png";
       logo.onload = () => {
         const padding = 20;
         const titleHeight = 50;
-        const logoSize = 80;
-        const totalHeight = canvas.height + titleHeight + logoSize + padding;
-  
+        const totalHeight = canvas.height + titleHeight + padding;
+
         finalCanvas.width = canvas.width;
         finalCanvas.height = totalHeight;
-  
+
         // Fondo blanco
         ctx.fillStyle = "#fff";
         ctx.fillRect(0, 0, finalCanvas.width, finalCanvas.height);
-  
-        // Dibujar logo
-        ctx.drawImage(logo, (finalCanvas.width - logoSize) / 2, padding, logoSize, logoSize);
-  
+
         // Dibujar título
         ctx.fillStyle = "#000";
         ctx.font = "bold 20px Arial";
         ctx.textAlign = "center";
-        ctx.fillText("Administración de empresas", finalCanvas.width / 2, padding + logoSize + 25);
-  
+        ctx.fillText("Administración de empresas", finalCanvas.width / 2, padding + 20);
+
         // Dibujar la tabla capturada debajo del título
-        ctx.drawImage(canvas, 0, titleHeight + logoSize + padding);
-  
+        ctx.drawImage(canvas, 0, titleHeight + padding);
+
+        // Configurar opacidad para la marca de agua
+        ctx.globalAlpha = 0.2;
+
+        // Definir tamaño y posición del logo centrado
+        const logoSize = Math.min(finalCanvas.width, finalCanvas.height) * 1; // 50% del tamaño menor
+        const centerX = (finalCanvas.width - logoSize) / 2;
+        const centerY = (finalCanvas.height - logoSize) / 2;
+
+        // Dibujar logo en el centro
+        ctx.drawImage(logo, centerX, centerY, logoSize, logoSize);
+
+        // Restaurar opacidad
+        ctx.globalAlpha = 1.0;
+
         // Convertir a imagen y descargar
         const link = document.createElement("a");
-        link.href = finalCanvas.toDataURL("image/png");
+        link.href = finalCanvas.toDataURL("logoIcon.png");
         link.download = "schedule.png";
         link.click();
       };
     });
   };
-  
   const generarColorAleatorio = () => {
     const letras = "0123456789ABCDEF";
     let color = "#";
@@ -113,6 +122,8 @@ const HorarioOrganizador = () => {
 
   return (
     <div className="contenedor">
+      <h2>Organizador de horario</h2>
+      <br/>
       <div className="select-option">
         <select onChange={(e) => setNivel(e.target.value)} value={nivel}>
           <option value="">Seleccione Nivel</option>
@@ -142,63 +153,63 @@ const HorarioOrganizador = () => {
 
       <div className="table-container">
 
-          <table id="scheduleTable" border="1">
-            <thead>
-              <tr>
-                <th>Horario</th>
-                {diasSemana.map(dia => <th key={dia}>{dia}</th>)}
-              </tr>
-            </thead>
-            <tbody>
-              {horarios.map((hora, idx) => (
-                <tr key={idx}>
-                  <td>{hora}</td>
-                  {diasSemana.map(dia => (
-                    <td key={dia}>
-                      {horariosFiltrados.map((h, index) =>
-                        h.dias.includes(dia) && h.horarios[h.dias.indexOf(dia)] === hora ? (
-                          <div
-                            key={index}
+        <table id="scheduleTable" border="1">
+          <thead>
+            <tr>
+              <th>Horario</th>
+              {diasSemana.map(dia => <th key={dia}>{dia}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {horarios.map((hora, idx) => (
+              <tr key={idx}>
+                <td>{hora}</td>
+                {diasSemana.map(dia => (
+                  <td key={dia}>
+                    {horariosFiltrados.map((h, index) =>
+                      h.dias.includes(dia) && h.horarios[h.dias.indexOf(dia)] === hora ? (
+                        <div
+                          key={index}
+                          style={{
+                            backgroundColor: coloresMaterias[h.materia] || "#ccc",
+                            color: "#fff",
+                            padding: "5px",
+                            borderRadius: "5px",
+                            textAlign: "center",
+                            fontSize: "12px",
+                            lineHeight: "1.2",
+                          }}
+                        >
+                          {h.materia} - {h.docente} ({h.grupo})
+                          <button
+                            onClick={() => quitarDocente(`${h.docente} - Grupo ${h.grupo}`)}
                             style={{
-                              backgroundColor: coloresMaterias[h.materia] || "#ccc",
-                              color: "#fff",
-                              padding: "5px",
-                              borderRadius: "5px",
-                              textAlign: "center",
-                              fontSize: "12px",
-                              lineHeight: "1.2",
+                              marginLeft: "5px",
+                              backgroundColor: "#fff",
+                              color: "#000",
+                              border: "1px solid #ccc",
+                              cursor: "pointer",
+                              borderRadius: "50%",
+                              width: "25px",
+                              height: "25px",
+                              display: "inline-flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              padding: "0",
                             }}
                           >
-                            {h.materia} - {h.docente} ({h.grupo})
-                            <button
-                              onClick={() => quitarDocente(`${h.docente} - Grupo ${h.grupo}`)}
-                              style={{
-                                marginLeft: "5px",
-                                backgroundColor: "#fff",
-                                color: "#000",
-                                border: "1px solid #ccc",
-                                cursor: "pointer",
-                                borderRadius: "50%",
-                                width: "25px",
-                                height: "25px",
-                                display: "inline-flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                padding: "0",
-                              }}
-                            >
-                              <FaTimes size={12} color="black" />
-                            </button>
-                          </div>
-                        ) : null
-                      )}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-       
+                            <FaTimes size={12} color="black" />
+                          </button>
+                        </div>
+                      ) : null
+                    )}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
       </div>
 
     </div>
