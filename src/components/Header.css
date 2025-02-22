@@ -35,8 +35,21 @@
     height: 80px;
     width: 80px;
     border-radius: 50%;
+    margin-left: 10%;
 }
 
 .imagen2 {
     height: 80px;
+    margin-right: 10%;
+}
+
+/* Para pantallas más pequeñas */
+@media (max-width: 808px) {
+    .imagen1 {
+        margin-left: 0px;
+    }
+    
+    .imagen2 {
+        margin-right: 0px;
+    }
 }
