@@ -3,6 +3,7 @@ import html2canvas from "html2canvas";
 import data from "../data/data.json";
 import './HorarioOrganizador.css';
 import { FaTimes } from "react-icons/fa";
+import { IoMenu } from "react-icons/io5";
 
 const diasSemana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
 const horarios = [
@@ -18,6 +19,7 @@ const HorarioOrganizador = () => {
   const [nivelAbierto, setNivelAbierto] = useState(null);
   const [materiaAbierta, setMateriaAbierta] = useState(null);
   const [docentesSeleccionados, setDocentesSeleccionados] = useState([]);
+  const [visible, setVisible] = useState(true);
 
   // Reiniciar materia y docente cuando cambia el nivel, pero no borrar `horariosFiltrados`
   useEffect(() => {
@@ -148,69 +150,76 @@ const HorarioOrganizador = () => {
       <div className="contenedor-inicial">
         <h2>Organizador de horario</h2>
         <br />
-        <button onClick={handlePrint}>Imprimir</button>
+        <div className="contain-separation">
+        <IoMenu className="icon-menu" onClick={() => setVisible(!visible)}>
+        </IoMenu >
+          <button onClick={handlePrint}>Imprimir</button>
+        </div>
       </div>
 
       <div className="contenedor">
         <br />
-        <div className="acordeon-container">
-          {Object.keys(data).map((nivel) => (
-            <div key={nivel} className="nivel">
-              <button
-                className="nivel-btn"
-                onClick={() => { setNivelAbierto(nivelAbierto === nivel ? null : nivel); setNivel(nivel) }}
-              >
-                {nivel} {nivelAbierto === nivel ? "▲" : "▼"}
-              </button>
 
-              {nivelAbierto === nivel && (
-                <div className="materias">
-                  {Object.keys(data[nivel]).map((materia) => (
-                    <div key={materia} className="materia">
-                      <button
-                        className="materia-btn"
-                        onClick={() => { setMateriaAbierta(materiaAbierta === materia ? null : materia); setMateria(materia) }}
-                      >
-                        {materia} {materiaAbierta === materia ? "▲" : "▼"}
-                      </button>
 
-                      {materiaAbierta === materia && (
-                        <ul className="docentes">
-                          {data[nivel][materia].map((d, index) => {
-                            const seleccionActual = `${d.docente} - Grupo ${d.grupo}`;
-                            const estaSeleccionado = docentesSeleccionados.includes(seleccionActual);
+        {visible && (
+          <div className="acordeon-container">
+            {Object.keys(data).map((nivel) => (
+              <div key={nivel} className="nivel">
+                <button
+                  className="nivel-btn"
+                  onClick={() => { setNivelAbierto(nivelAbierto === nivel ? null : nivel); setNivel(nivel) }}
+                >
+                  {nivel} {nivelAbierto === nivel ? "▲" : "▼"}
+                </button>
 
-                            return (
-                              <li
-                                key={index}
-                                className={`docente-item ${estaSeleccionado ? "seleccionado" : ""}`}
-                                onClick={() => {
-                                  if (!estaSeleccionado) {
-                                    agregarDocente(seleccionActual)
-                                  } else {
-                                    quitarDocente(seleccionActual)
-                                  }
-                                  setDocentesSeleccionados((prev) =>
-                                    estaSeleccionado
-                                      ? prev.filter((item) => item !== seleccionActual) // Quita si ya está seleccionado
-                                      : [...prev, seleccionActual] // Agrega si no está seleccionado
-                                  );
-                                }}
-                              >
-                                {d.docente} - Grupo {d.grupo}
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
+                {nivelAbierto === nivel && (
+                  <div className="materias">
+                    {Object.keys(data[nivel]).map((materia) => (
+                      <div key={materia} className="materia">
+                        <button
+                          className="materia-btn"
+                          onClick={() => { setMateriaAbierta(materiaAbierta === materia ? null : materia); setMateria(materia) }}
+                        >
+                          {materia} {materiaAbierta === materia ? "▲" : "▼"}
+                        </button>
 
+                        {materiaAbierta === materia && (
+                          <ul className="docentes">
+                            {data[nivel][materia].map((d, index) => {
+                              const seleccionActual = `${d.docente} - Grupo ${d.grupo}`;
+                              const estaSeleccionado = docentesSeleccionados.includes(seleccionActual);
+
+                              return (
+                                <li
+                                  key={index}
+                                  className={`docente-item ${estaSeleccionado ? "seleccionado" : ""}`}
+                                  onClick={() => {
+                                    if (!estaSeleccionado) {
+                                      agregarDocente(seleccionActual)
+                                    } else {
+                                      quitarDocente(seleccionActual)
+                                    }
+                                    setDocentesSeleccionados((prev) =>
+                                      estaSeleccionado
+                                        ? prev.filter((item) => item !== seleccionActual) // Quita si ya está seleccionado
+                                        : [...prev, seleccionActual] // Agrega si no está seleccionado
+                                    );
+                                  }}
+                                >
+                                  {d.docente} - Grupo {d.grupo}
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
 
         <div className="table-container">
 
@@ -231,16 +240,12 @@ const HorarioOrganizador = () => {
                         h.dias.includes(dia) && h.horarios[h.dias.indexOf(dia)] === hora ? (
                           <div
                             key={index}
+                            className="materia-box"
                             style={{
-                              backgroundColor: coloresMaterias[h.materia] || "#ccc",
-                              color: "#fff",
-                              padding: "5px",
-                              borderRadius: "5px",
-                              textAlign: "center",
-                              fontSize: "12px",
-                              lineHeight: "1.2",
+                              backgroundColor: coloresMaterias[h.materia] || "#ccc", // Solo el color se mantiene dinámico
                             }}
                           >
+
                             {h.materia} - {h.docente} ({h.grupo})
                             <button
                               onClick={() => quitarDocente(`${h.docente} - Grupo ${h.grupo}`)}

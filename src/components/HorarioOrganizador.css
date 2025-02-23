@@ -2,20 +2,23 @@
     text-align: center;
 }
 
-.contenedor {
+.contain-separation {
     display: flex;
-    width: 100%;
-    margin: auto;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-select {
-    padding: 8px;
-    margin: 5px;
-    border: 1px solid #ccc;
+.icon-menu {
+    background-color: #f5b906;
     border-radius: 5px;
-    font-size: 16px;
+    color: black;
+    padding: 2px;
+    margin-left: -15px;
+    font-size: 32px;
+    cursor: pointer;
 }
+
 
 button {
     background-color: #f5b906;
@@ -70,6 +73,16 @@ td div {
     font-size: 14px;
 }
 
+.materia-box {
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+
 /* Para pantallas más pequeñas */
 @media (max-width: 768px) {
 
@@ -82,6 +95,18 @@ td div {
 }
 
 @media (max-width: 480px) {
+    .contenedor {
+        display: flex;
+        width: 100%;
+        // margin: auto;
+        text-align: center;
+    }
+
+    .materia-box {
+        font-size: 8px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
     #scheduleTable {
         min-width: 100%;
         /* Hace que la tabla ocupe toda la pantalla */
@@ -95,37 +120,48 @@ td div {
     }
 
     .acordeon-container {
-        width: 70%;
+        width: 40% !important;
+        padding-right: 0px !important;
     }
 
     .table-container {
-        width: 20%;
+        width: 60% !important;
     }
 
     .nivel-btn,
     .materia-btn {
-        width: 100%;
-        text-align: left;
-        padding: 10px;
-        font-size: 6px;
-        background: #f5b906;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-top: 5px;
+        font-size: 8px !important;
+    }
+
+    .docente-item {
+        font-size: 8px !important;
     }
 }
 
-.table-container {
-    width: 80%;
-    padding: 10px;
+.contenedor {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    gap: 10px;
+}
 
+.table-container {
+    flex: 1;
+    margin-top: -15px;
+    transition: width 0.3s ease-in-out;
+    overflow-x: auto;
 }
 
 .acordeon-container {
-    width: 40%;
-    padding-top: 25px;
+    flex: 1;
+    margin-left: -15px;
+    transition: width 0.3s ease-in-out;
+}
+
+.table-container:only-child,
+.acordeon-container:only-child {
+    width: 100%;
 }
 
 .nivel-btn,
@@ -175,8 +211,7 @@ td div {
 }
 
 .docente-item.seleccionado {
-    background-color: #46e14b;
-    /* Verde */
+    background-color: #4CAF50;
     color: white;
     font-weight: bold;
 }
