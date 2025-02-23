@@ -5,9 +5,19 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa"; // Importar iconos
 const Footer = () => {
     const [showInfo, setShowInfo] = useState(false);
     const infoRef = useRef(null);
+    const [modalOpen, setModalOpen] = useState(false);
 
     const toggleInfo = () => {
         setShowInfo(!showInfo);
+    };
+
+    const openModal = () => {
+        setModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setModalOpen(false);
+        setSelectedImage(null);
     };
 
     useEffect(() => {
@@ -43,10 +53,10 @@ const Footer = () => {
                         <br />
 
                         {/* Galería de imágenes */}
-                        <div className="gallery">
+                        <div className="gallery" onClick={() => openModal()}>
                             <img src="../A.jpeg" alt="Foto 1" />
                         </div>
-                        <br/>
+                        <br />
                     </div>
                 )}
 
@@ -62,6 +72,14 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
+            {/* Modal para la imagen en grande */}
+            {modalOpen && (
+                <div className="modal-overlay" onClick={closeModal}>
+                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                        <img src="../A.jpeg" alt="Imagen ampliada" className="modal-image" />
+                    </div>
+                </div>
+            )}
             <p>&copy; 2025 ELITE FCE. Todos los derechos reservados.</p>
         </footer>
     );
