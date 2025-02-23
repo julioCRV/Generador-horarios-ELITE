@@ -154,7 +154,7 @@ td div {
 }
 
 .acordeon-container {
-    flex: 1;
+    flex: 0.4;
     margin-left: -15px;
     transition: width 0.3s ease-in-out;
 }

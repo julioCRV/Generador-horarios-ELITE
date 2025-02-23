@@ -18,7 +18,7 @@
 /* Botón "Conócenos" con ícono dinámico */
 .btn-conocenos {
     background-color: #f5b906;
-    color:  #1a237e;
+    color: #1a237e;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -104,6 +104,16 @@
     .gallery img {
         width: 100%;
     }
+    .modal-image {
+        max-width: 90% !important;
+    }
+}
+
+@media (max-width: 556px) {
+
+    .modal-image {
+        max-width: 100% !important;
+    }
 }
 
 .modal-overlay {
@@ -117,18 +127,17 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     position: relative;
     background: white;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-  }
-  
-  .modal-image {
+}
+
+.modal-image {
     max-width: 60vw;
     max-height: 80vh;
-  }
-  
+}
