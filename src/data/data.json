@@ -1360,7 +1360,7 @@
                 "grupo": "08",
                 "docente": "ARAMAYO CAMACHO MARCELO MAURICIO",
                 "dias": [
-                    "Lunes",
+                    "Martes",
                     "Miércoles",
                     "Jueves"
                 ],
@@ -2368,7 +2368,7 @@
                 "grupo": "01",
                 "docente": "VELASQUEZ ARIAS MARLENE",
                 "dias": [
-                    "Lunes",
+                    "Martes",
                     "Jueves",
                     "Viernes"
                 ],
@@ -2387,7 +2387,7 @@
                 "grupo": "07",
                 "docente": "VELASQUEZ ARIAS MARLENE",
                 "dias": [
-                    "Lunes",
+                    "Martes",
                     "Miércoles",
                     "Jueves"
                 ],
@@ -2740,12 +2740,12 @@
                 ]
             }
         ],
-        "RECURSOS_HUMANOS": [
+        "RECURSOS HUMANOS": [
             {
                 "grupo": "07",
                 "docente": "TORRES ARANDIA WILLIAM",
                 "dias": [
-                    "Lunes",
+                    "Martes",
                     "Miércoles",
                     "Jueves"
                 ],
@@ -3315,7 +3315,7 @@
                 "grupo": "09",
                 "docente": "RIVERO MORENO CARLOS SERGIO",
                 "dias": [
-                    "Lunes",
+                    "Martes",
                     "Miércoles",
                     "Jueves"
                 ],
@@ -3593,7 +3593,7 @@
                 "grupo": "07",
                 "docente": "TORRICO BASCOPE ROSEMARY",
                 "dias": [
-                    "Martes",
+                    "Miércoles",
                     "Jueves"
                 ],
                 "horarios": [
@@ -3810,7 +3810,7 @@
                 "aulas": [
                     "E520",
                     "E504",
-                    "E PB-4"
+                    "EPB-4"
                 ]
             }
         ]

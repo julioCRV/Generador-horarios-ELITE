@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./Footer.css";
-import { FaChevronDown, FaChevronUp } from "react-icons/fa"; // Importar iconos
+import { FaChevronDown, FaChevronUp, FaWhatsapp, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
     const [showInfo, setShowInfo] = useState(false);
@@ -60,14 +60,22 @@ const Footer = () => {
                     </div>
                 )}
 
-                {/* Enlaces de WhatsApp en una sola fila */}
+                {/* Enlaces de WhatsApp y Facebook en una sola fila */}
                 <div className="whatsapp-links">
-                    <a href="https://chat.whatsapp.com/IbrWGAtnD6O4LdbM9HPNZM" target="_blank" rel="noopener noreferrer">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+                    <a
+                        href="https://chat.whatsapp.com/IbrWGAtnD6O4LdbM9HPNZM"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaWhatsapp size={24} color="#25D366" />
                         <span>Grupo de Informaciones Ing. Comercial</span>
                     </a>
-                    <a href="https://www.facebook.com/share/15mNkbyrfE/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="WhatsApp" />
+                    <a
+                        href="https://www.facebook.com/share/15mNkbyrfE/?mibextid=wwXIfr"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaFacebook size={24} color="#1877F2" />
                         <span>Página oficial ELITE FCE</span>
                     </a>
                 </div>
